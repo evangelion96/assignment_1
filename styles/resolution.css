@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+html,
+body {
+
+    height: 100%;
+
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    border: 0;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 21px 25px 20px 26px;
+    color: #005FAC;
+    margin-top: 32px;
+}
+
+.header {
+
+    background-image: url('../images/banner/banner3.png');
+    background-size: contain;
+
+    height: 100%;
+
+}
+
+.header-description {
+    padding: 208px 230px 166px 845px;
+    text-align: right;
+}
+
+.header-description p {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+
+/* My failures of previous year */
+.failure-list ul {
+
+    list-style: none;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.failure-list ul li::before {
+
+    content: '\2713';
+    color: #16D887;
+}
+
+.failure-list {
+    display: flex;
+    margin-top: 100px;
+    padding: 0;
+
+    gap: 87px;
+
+}
+
+.list-description {
+    margin: 150px 0;
+    padding-top: 100px;
+}
+
+.list-description h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.list-description p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.my-plan {
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+.my-plan h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-container .skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-container .skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.plan-container .plan {
+    text-align: center;
+}
+
+.my-plan .plan-container img {
+    margin-bottom: 30px;
+}
+
+
+.plan {
+
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.reminder {
+    margin-top: 130px;
+    background-image: linear-gradient(to right, #005FAC, #005fac00), url('../images/watch.png');
+    background-size: cover;
+    height: 300px;
+
+
+}
+
+.reminder .call {
+    padding: 59px 617px 59px 64px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.footer {
+    margin-top: 130px;
+    height: 577px;
+    background-color: #151414;
+    display: flex;
+    gap: 330px;
+    padding-top: 130px;
+    padding-left: 265px;
+    padding-right: 195px;
+}
+
+.footer .contact {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.contact .descri, .em{
+    margin-bottom: 24px;
+}
+
+
+.subscribe input[type="email"] {
+    width: 325px;
+    height: 64px;
+    border-radius: 10px ;
+    background:none;
+    border-color: #FFFFFF;
+    padding: 21px 22px; 
+    font-size: 18px; 
+    font-weight: 400;
+    color: #FFFFFF; 
+}
+
+.subscribe .btn-primary{
+    color: #FFFFFF;
+    background-color: #005FAC;
+}
+
