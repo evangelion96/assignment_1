@@ -28,11 +28,11 @@ main {
     margin-top: 32px;
 }
 
+/* header */
 .header {
 
     background-image: url('../images/banner/banner3.png');
     background-size: contain;
-
     height: 100%;
 
 }
@@ -52,6 +52,7 @@ main {
     font-weight: 700;
     font-size: 65px;
     color: #FFFFFF;
+    text-shadow: 0 7px black;
 }
 
 
@@ -99,6 +100,8 @@ main {
     margin-bottom: 16px;
 }
 
+/* My Plans */
+
 .my-plan {
     text-align: center;
     margin-top: 130px;
@@ -145,6 +148,8 @@ main {
     border-radius: 5px;
 }
 
+/* Always keep a positive mindset */
+
 .reminder {
     margin-top: 130px;
     background-image: linear-gradient(to right, #005FAC, #005fac00), url('../images/watch.png');
@@ -161,6 +166,7 @@ main {
     color: #FFFFFF;
 }
 
+/* footer */
 .footer {
     margin-top: 130px;
     height: 577px;
@@ -184,8 +190,14 @@ main {
     margin-bottom: 30px;
 }
 
-.contact .descri, .em{
+.contact .contact-description, .em, .ph{
     margin-bottom: 24px;
+}
+
+.contact a{
+    text-decoration: none;
+    letter-spacing: 10px;
+
 }
 
 
